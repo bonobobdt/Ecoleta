@@ -1,0 +1,31 @@
+
+/* be water */
+
+:root{ /*acessa o root do documento*/
+    --title-color: #322153; /* cria uma variavel*/
+    --primary-color: #34cb79;
+}
+
+* { /* seleciona tudo -- reset do css*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--title-color); /*acessa variavel definida no root*/
+    font-family: "Ubuntu", sans-serif;
+}
